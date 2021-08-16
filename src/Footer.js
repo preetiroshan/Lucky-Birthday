@@ -6,16 +6,19 @@ import { ReactComponent as Twitter } from "./images/twitter.svg";
 export default function Footer() {
   return (
     <footer className="footer">
-      <a href="https://github.com/preetiroshan">
-        <Github />
-      </a>
-      <a href="https://www.linkedin.com/in/preetiroshan/">
-        <Linkedin />
-      </a>
+      <div className="icons">
+        <a href="https://github.com/preetiroshan">
+          <Github />
+        </a>
+        <a href="https://www.linkedin.com/in/preetiroshan/">
+          <Linkedin />
+        </a>
 
-      <a href="https://www.twitter.com/preetiroshan/">
-        <Twitter />
-      </a>
+        <a href="https://www.twitter.com/preetiroshan/">
+          <Twitter />
+        </a>
+      </div>
+      <small>We are not storing your data</small>
     </footer>
   );
 }
