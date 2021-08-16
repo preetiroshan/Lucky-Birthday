@@ -1,0 +1,46 @@
+#root {
+  --pink: rgb(234, 202, 202);
+  --purple: #6c63ff;
+}
+body {
+  margin: 0;
+}
+
+App {
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+}
+.header {
+  padding: 2rem;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.show {
+  display: block !important;
+  opacity: 1;
+}
+
+.footer {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex: row;
+  justify-content: center;
+}
+
+.btn {
+  margin-top: 1rem;
+  background-color: var(--purple);
+  border: 2px solid var(--pink);
+  /* borde */
+  border-radius: 0.4rem;
+  padding: 0.5rem;
+}
+.input-field {
+  margin: 0.8rem 0;
+  padding: 0.3rem;
+  font-size: large;
+  width: 10rem;
+}
